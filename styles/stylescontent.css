@@ -1,0 +1,87 @@
+.body {
+  background: #a099d1;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+.container1 {
+  width: fit-content;
+  height: 80vh;
+  width: 89vh;
+  padding: 0 15px 15px 15px;
+  background-color: #ffffff11;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+.container2 {
+  display: flex;
+  width: fit-content;
+  height: 550px;
+  padding: 0 15px 15px 15px;
+  background-color: #ffffff11;
+  text-align: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  position: relative;
+  top: 55px;
+  left: 1px;
+}
+.gambar {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  position: relative;
+  top: 25px;
+}
+.dropdown-menu > li > a:hover {
+  background-color: gray;
+}
+.table {
+  width: 100%; /* Use full width of the container */
+  border-collapse: collapse; /* Ensures borders are merged */
+  margin-bottom: 20px; /* Space below the table */
+}
+
+.table th,
+.table td {
+  padding: 10px; /* Space within table cells */
+  text-align: center; /* Center-align text */
+  border: 1px solid #ddd; /* Light border around cells */
+}
+
+.table th {
+  background-color: #6f42c1; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+.table tr:hover {
+  background-color: #f1f1f1; /* Hover effect for rows */
+}
+
+.button-container {
+  display: flex; /* Use flexbox for spacing */
+  flex-wrap: wrap; /* Wrap buttons to next line if needed */
+  justify-content: center; /* Center buttons */
+}
+
+.button-container button {
+  margin: 5px; /* Space between buttons */
+  background-color: #6f42c1; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button-container button:hover {
+  background-color: #5a318e; /* Darker shade on hover */
+}
